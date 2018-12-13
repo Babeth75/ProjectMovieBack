@@ -3,7 +3,7 @@ const connection = require("./Conf");
 // Utilisation de la micro librairie Express
 const express = require("express");
 const app = express();
-const port = 3003;
+const port = process.env.PORT || 3003;
 
 const bodyParser = require("body-parser");
 
