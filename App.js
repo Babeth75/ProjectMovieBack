@@ -1,4 +1,4 @@
-const connection = require("./conf");
+const connection = require("./Conf");
 
 // Utilisation de la micro librairie Express
 const express = require("express");
